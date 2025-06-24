@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <h2 id="home-score">0</h2>
+                    <div class="home-buttons">
+                        <button id="home-score-btn-1" onclick="increaseHomeScoreOne()">+ 1</button>
+                        <button id="home-score-btn-2" onclick="increaseHomeScoreTwo()">+ 2</button>
+                        <button id="home-score-btn-3" onclick="increaseHomeScoreThree()">+ 3</button>
+                    </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <h2 id="guest-score"> 0</h2>
+                    <div class="guest-buttons">
+                        <button id="guest-score-btn-1" onclick="increaseGuestScoreOne()">+ 1</button>
+                        <button id="guest-score-btn-2" onclick="increaseGuestScoreTwo()">+ 2</button>
+                        <button id="guest-score-btn-3" onclick="increaseGuestScoreThree()">+ 3</button>
+                    </div>
+            </div>
+        </div>
+        <div>
+            <button class="reset-btn" onclick="resetScores()">Reset</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

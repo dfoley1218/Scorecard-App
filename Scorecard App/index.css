@@ -1,0 +1,50 @@
+
+
+body {
+    margin: 0;
+    background-color: #2A9D8F;
+    color: #E76F51;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#home-score, #guest-score {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color: #E9C46A;
+  background-color: black;
+  border-radius: 10px;
+  padding: 50px;
+
+}
+
+button {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  border-radius: 10px;
+  font-style: normal;
+  color: #F4A261;
+  background: none;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button:hover {background-color: #264653}
+
+
+
+.reset-btn {
+    display: inline-block;
+    justify-content: center;
+    padding: 15px;
+    margin: 20px;
+}
